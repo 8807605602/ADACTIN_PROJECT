@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login functionality for adactin hotel booking",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5948696300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in launch the browsers",
+            "match": {
+              "location": "StepDefinetion.user_in_launch_the_browsers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221329300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the username in username field",
+            "match": {
+              "location": "StepDefinetion.user_enter_the_username_in_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96352500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the password into password field",
+            "match": {
+              "location": "StepDefinetion.user_enter_the_password_into_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031133900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the submit button",
+            "match": {
+              "location": "StepDefinetion.user_click_the_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "fill creiteria",
+        "description": "",
+        "id": "adactin-hotel-booking;fill-creiteria",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240709100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click  the select location drop down to location selection selection",
+            "match": {
+              "location": "StepDefinetion.click_the_select_location_drop_down_to_location_selection_selection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167083100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click  the hotel drop down to holel selection",
+            "match": {
+              "location": "StepDefinetion.click_the_hotel_drop_down_to_holel_selection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3163980800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click  the hotel type  drop down to holel selection",
+            "match": {
+              "location": "StepDefinetion.click_the_hotel_type_drop_down_to_holel_selection()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@regression_run"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login functionality for adactin hotel booking",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 460268400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in launch the browsers",
+            "match": {
+              "location": "StepDefinetion.user_in_launch_the_browsers()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189671500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the username in username field",
+            "match": {
+              "location": "StepDefinetion.user_enter_the_username_in_username_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107053100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the password into password field",
+            "match": {
+              "location": "StepDefinetion.user_enter_the_password_into_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1288760600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the submit button",
+            "match": {
+              "location": "StepDefinetion.user_click_the_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "change the password fuction",
+        "description": "",
+        "id": "adactin-hotel-booking;change-the-password-fuction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1137052800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click  the change pw field to for password change",
+            "match": {
+              "location": "StepDefinetion.click_the_change_pw_field_to_for_password_change()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@regression_run"
+          }
+        ]
+      }
+    ],
+    "name": "Adactin hotel booking",
+    "description": "",
+    "id": "adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "src/test/java/featureLogin/Login.Feature"
+  }
+]
